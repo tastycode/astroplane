@@ -1,0 +1,33 @@
+.scanner {
+	font-size: 2em;
+	margin: 3em;
+    position: relative;
+}
+
+.scanner-corner {
+    width: 10px;
+    height: 10px;
+    /*background-color: rgba(255,0,255,0.50);*/
+    z-index: 1000;
+    position: absolute;
+}
+.scanner-corner.tl {
+    background-color: rgba(255,0,0,0.50);
+    border-top: 2px solid #0f0;
+    border-left: 1px solid #0f0;
+}
+.scanner-corner.tr {
+    background-color: rgba(0,0,255,0.50);
+    border-top: 2px solid #0f0;
+    border-right: 1px solid #0f0;
+}
+.scanner-corner.bl {
+    background-color: rgba(255,255,0,0.50);
+    border-bottom: 1px solid #0f0;
+    border-left: 2px solid #0f0;
+}
+.scanner-corner.br {
+    background-color: rgba(0,255,255,0.50);
+    border-bottom: 1px solid #0f0;
+    border-right: 2px solid #0f0;
+}
